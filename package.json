@@ -1,0 +1,26 @@
+{
+  "name": "socket-test-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Megoos/socket-test-server.git",
+  "author": "Megoos <m.guskov@dooglys.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-scripts": "1.0.17",
+    "socket.io": "^2.0.4",
+    "uuid": "^3.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "server": "nodemon src/server/index.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
